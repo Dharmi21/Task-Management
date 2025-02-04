@@ -1,0 +1,124 @@
+
+
+.bg {
+    background-color: #9aa2b1;
+    margin-left: 200px;
+    margin-top: 2px;
+}
+
+.font {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 13px;
+    color: #A2A9B4;
+}
+
+.nav-background {
+    background-image: url("/storage/profile/nav.jpg");
+    background-size: cover;
+
+
+    min-height: 100%;
+}
+
+.fontclass{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 13px;
+    color: #A2A9B4;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+.row {
+    margin: 0 -5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    background-color: #273143;
+
+
+}
+
+.body {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 13px;
+    color: white;
+    /* background-color: #202734; */
+}
+.dropdown-item {
+
+    color: #07213b!important;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 58px;
+    left: 0;
+
+    background-color: #2f394c;
+
+    overflow-x: hidden;
+    /* padding-top: 35px; */
+}
+
+.sidenav a {
+    padding: 6px 6px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 240px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+p.ex1 {
+    margin-left: 30px;
+}
+
+
+
+.modal-header {
+    background-color: #1b2531;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
